@@ -82,57 +82,6 @@ Each snippet should:
 
 > “Code daily. Improve silently. Let results speak.”
 
-## 🛠️ Daily Tasks (Very Important)
-
-### 🔹 Beginner / Warm-up Tasks (10–15 min)
-
-Pick **ONE daily**:
-
-* Reverse a string (2 ways)
-* Check palindrome (string / number)
-* Count digits / vowels / words
-* Prime number check
-* GCD / LCM
-* Fibonacci (iterative + recursive)
-
-
-### 🔹 Core Java Task (10–15 min)
-
-Pick **ONE**:
-
-* Write a snippet using:
-
-  * `StringBuilder`
-  * `Arrays.sort`
-  * `Comparator`
-  * `Math` class
-* Implement:
-
-  * `equals()` & `hashCode()`
-  * Custom exception
-  * Immutable class
-
-
-### 🔹 DSA Task (15–20 min)
-
-Pick **ONE**:
-
-* Binary Search
-* Two Pointer approach
-* Prefix Sum
-* Sliding Window
-* Stack-based problem
-* Recursion problem
-
-
-### 🔹 Weekly Advanced Tasks (Weekend)
-
-* Java 8 Streams (filter/map/reduce)
-* Multithreading example
-* File read/write snippet
-* LRU Cache (Collections-based)
-* Mini utility (e.g., input validator)
-
 ## 📅 Example Daily Log (Optional)
 
 ```text
@@ -142,7 +91,6 @@ Day 12:
 ✔ HashMap frequency counter
 ```
 
----
 
 ## 🧩 Optional Enhancements (Later)
 
