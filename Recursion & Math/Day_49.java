@@ -13,5 +13,6 @@ public class Day_49 {
             count++;
         }
         System.out.println("Number Of Bits : " + count);
+        sc.close();
     }
 }
