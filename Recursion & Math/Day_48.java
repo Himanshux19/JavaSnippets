@@ -1,4 +1,4 @@
-// Day 47 : Tower of Hanoi
+// Day 48 : Tower of Hanoi
 
 import java.util.*;
 

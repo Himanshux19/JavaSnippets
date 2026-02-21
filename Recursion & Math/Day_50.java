@@ -1,8 +1,8 @@
-// Day 49 : Count set bits
+// Day 50 : Check power of two
 
 import java.util.*;
 
-public class Day_49 {
+public class Day_50 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Number : ");
@@ -12,7 +12,7 @@ public class Day_49 {
             n = n & (n - 1);
             count++;
         }
-        System.out.println("Number Of Bits : " + count);
+        System.out.println(count == 1 ? "Is Power of two" : "Not Power of two");
         sc.close();
     }
 }
