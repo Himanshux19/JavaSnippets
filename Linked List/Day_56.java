@@ -1,4 +1,4 @@
-// Day 56 : Remove Cycle
+// Day 56 : Detect cycle (Floyd)
 
 import java.util.*;
 
@@ -39,69 +39,34 @@ public class Day_56 {
         System.out.println("null");
     }
 
-    public void createCycle(int pos) {
-        if (head == null)
-            return;
-
-        Node temp = head;
-        Node cycleNode = null;
-        int count = 1;
-
-        while (temp.next != null) {
-            if (count == pos)
-                cycleNode = temp;
-            temp = temp.next;
-            count++;
-        }
-        temp.next = cycleNode;
-    }
-
-    private static void removeCycle() {
-        if (head == null || head.next == null)
-            return;
-
-        Node slow = head;
-        Node fast = head;
-        boolean hasCycle = false;
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-
-            if (slow == fast) {
-                hasCycle = true;
-                break;
-            }
-        }
-
-        if (!hasCycle)
-            return;
-
-        slow = head;
-        Node prev = null;
-
-        while (slow != fast) {
-            prev = fast;
-            slow = slow.next;
-            fast = fast.next;
-        }
-        prev.next = null;
-    }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Day_56 list = new Day_56();
-
         System.out.print("Enter the Size of Linked List : ");
         int n = sc.nextInt();
-
         for (int i = 0; i < n; i++) {
             System.out.print("Enter Node : ");
             int x = sc.nextInt();
             list.insert(x);
         }
-        removeCycle();
-        System.out.println("Linked List after removing cycle:");
-        list.display();
+        System.out.print(hasCycle(head) ? "Cycle Found" : "No Cycle Found");
         sc.close();
+    }
+
+    public static boolean hasCycle(Node head) {
+        if (head == null)
+            return false;
+
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                return true;
+            }
+        }
+        return false;
     }
 }
