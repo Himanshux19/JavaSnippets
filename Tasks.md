@@ -80,7 +80,7 @@
 57. Remove cycle
 58. Merge two sorted lists
 59. Check palindrome linked list
-60. Intersection of two linked lists
+60. Common elements of two linked lists (by value)
 
 
 ## 🔹 Days 61–70: Stack & Queue
