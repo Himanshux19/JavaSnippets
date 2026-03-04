@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class StackArray {
+public class Day_61 {
 
     static int stack[];
     static int top = -1;
