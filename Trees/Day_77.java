@@ -1,6 +1,8 @@
 import java.util.*;
 
-public class Day_76 {
+import javax.swing.tree.TreeNode;
+
+public class Day_77 {
 
     static class Node {
         int data;
@@ -12,10 +14,20 @@ public class Day_76 {
         }
     }
 
+    static int diameter = 0;
+
+    public static int diameter(Node root) {
+        height(root);
+        return diameter;
+    }
+
     public static int height(Node root) {
         if (root == null)
             return 0;
-        return Math.max(height(root.left), height(root.right)) + 1;
+        int left = height(root.left);
+        int right = height(root.right);
+        diameter = Math.max(left + right, diameter);
+        return Math.max(left, right) + 1;
     }
 
     public static Node buildTree() {
@@ -34,7 +46,7 @@ public class Day_76 {
 
     public static void main(String[] args) {
         Node root = buildTree();
-        int h = height(root);
-        System.out.println("Height of the Tree is : " + h);
+        diameter(root);
+        System.out.println("Diameter of the Tree is : " + diameter);
     }
 }
