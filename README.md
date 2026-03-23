@@ -28,6 +28,8 @@ java-snippets/
 │   └── math/
 │
 ├── oop/
+│   ├── object/
+│   ├── class/
 │   ├── inheritance/
 │   ├── polymorphism/
 │   ├── abstraction/
