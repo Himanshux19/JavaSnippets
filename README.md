@@ -49,6 +49,7 @@ java-snippets/
 │   ├── linkedlist/
 │   ├── stack-queue/
 │   ├── trees/
+│   ├── arrays/
 │   └── graphs/
 │
 ├── java8/
