@@ -52,11 +52,6 @@ java-snippets/
 │   ├── arrays/
 │   └── graphs/
 │
-├── java8/
-│   ├── lambda/
-│   ├── streams/
-│   └── functional-interfaces/
-│
 ├── backend-basics/
 │   ├── file-handling/
 │   ├── exception-handling/
