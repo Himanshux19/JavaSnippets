@@ -19,44 +19,18 @@ _The goal is **consistency > perfection**._
 
 ```
 java-snippets/
-│
-├── core-java/
-│   ├── basics/
-│   ├── loops/
-│   ├── strings/
-│   ├── arrays/
-│   └── math/
-│
-├── oop/
-│   ├── object/
-│   ├── class/
-│   ├── inheritance/
-│   ├── polymorphism/
-│   ├── abstraction/
-│   └── encapsulation/
-│
-├── collections/
-│   ├── arraylist/
-│   ├── hashmap/
-│   ├── hashset/
-│   ├── stack/
-│   └── queue/
-│
-├── dsa/
-│   ├── searching/
-│   ├── sorting/
-│   ├── recursion/
-│   ├── linkedlist/
-│   ├── stack-queue/
-│   ├── trees/
-│   ├── arrays/
-│   └── graphs/
-│
-├── backend-basics/
-│   ├── file-handling/
-│   ├── exception-handling/
-│   └── multithreading/
-│
+├── Java Basics & Logic Building
+├── Strings Fundamentals
+├── Arrays
+├── Searching & Sorting
+├── Recursion & Math
+├── Linked List
+├── Stack & Queue
+├── Trees
+├── Hashing & Sets
+├── Java OOP
+├── Java Collections & Utilities
+├── Advanced / Backend-Oriented
 └── README.md
 ```
 
