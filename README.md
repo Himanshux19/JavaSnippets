@@ -50,9 +50,12 @@ Each snippet should:
   ```
 * Avoid unnecessary boilerplate
 
+
 ## 🚀 Motivation
 
 > “Code daily. Improve silently. Let results speak.”
+
+
 
 ## 📅 Example Daily Log (Optional)
 
@@ -62,6 +65,16 @@ Day 12:
 ✔ Binary search (iterative)
 ✔ HashMap frequency counter
 ```
+
+
+## 📊 Progress Status
+
+* ✅ Core Java Fundamentals — Completed
+* ✅ Data Structures & Algorithms — Completed
+* ✅ OOP & Collections — Completed
+* ✅ Backend-Oriented Concepts — Completed
+* 🔄 Continuous Improvements & Additions
+
 
 
 ## 🧩 Optional Enhancements (Later)
