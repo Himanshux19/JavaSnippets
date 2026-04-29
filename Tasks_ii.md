@@ -1,132 +1,89 @@
 ## 🔹 Days 101–110: Advanced Arrays & Sliding Window
 
-101. Longest subarray with sum ≤ K
-102. Minimum size subarray sum
-103. Longest repeating character replacement
-104. Sliding window maximum
-105. Count subarrays with exactly K distinct
-106. Maximum sum of fixed window size K
-107. Longest substring without repeating characters
-108. Fruit into baskets (2 distinct)
-109. Binary subarrays with sum
-110. Subarrays divisible by K
+| Day | Problem                                        | LeetCode         |
+| --- | ---------------------------------------------- | ---------------- |
+| 101 | Longest subarray with sum ≤ K                  | LC 209 (variant) |
+| 102 | Minimum size subarray sum                      | LC 209           |
+| 103 | Longest repeating character replacement        | LC 424           |
+| 104 | Sliding window maximum                         | LC 239           |
+| 105 | Subarrays with exactly K distinct              | LC 992           |
+| 106 | Maximum sum of fixed window size K             | LC 643           |
+| 107 | Longest substring without repeating characters | LC 3             |
+| 108 | Fruit into baskets                             | LC 904           |
+| 109 | Binary subarrays with sum                      | LC 930           |
+| 110 | Subarrays divisible by K                       | LC 974           |
 
 ## 🔹 Days 111–120: Two Pointers & Greedy
 
-111. Container with most water
-112. Trapping rain water
-113. 3Sum problem
-114. 4Sum problem
-115. Remove duplicates from unsorted array
-116. Partition array (Dutch flag)
-117. Assign cookies (greedy)
-118. Jump game
-119. Jump game II
-120. Gas station problem
+| Day | Problem                      | LeetCode         |
+| --- | ---------------------------- | ---------------- |
+| 111 | Container with most water    | LC 11            |
+| 112 | Trapping rain water          | LC 42            |
+| 113 | 3Sum                         | LC 15            |
+| 114 | 4Sum                         | LC 18            |
+| 115 | Remove duplicates (unsorted) | LC 217 (closest) |
+| 116 | Dutch National Flag          | LC 75            |
+| 117 | Assign cookies               | LC 455           |
+| 118 | Jump Game                    | LC 55            |
+| 119 | Jump Game II                 | LC 45            |
+| 120 | Gas Station                  | LC 134           |
 
 ## 🔹 Days 121–130: Binary Search Advanced
 
-121. Search in rotated sorted array
-122. Find minimum in rotated array
-123. Peak element
-124. Median of two sorted arrays
-125. Kth smallest in sorted matrix
-126. Aggressive cows (binary search on answer)
-127. Book allocation problem
-128. Painter’s partition
-129. Min days to make bouquets
-130. Capacity to ship packages
+| Day | Problem                        | LeetCode          |
+| --- | ------------------------------ | ----------------- |
+| 121 | Search in rotated sorted array | LC 33             |
+| 122 | Find minimum in rotated array  | LC 153            |
+| 123 | Peak element                   | LC 162            |
+| 124 | Median of two sorted arrays    | LC 4              |
+| 125 | Kth smallest in sorted matrix  | LC 378            |
+| 126 | Aggressive cows                | LC 1552 (similar) |
+| 127 | Book allocation                | LC 410 (similar)  |
+| 128 | Painter’s partition            | LC 410 (similar)  |
+| 129 | Min days to make bouquets      | LC 1482           |
+| 130 | Capacity to ship packages      | LC 1011           |
 
 ## 🔹 Days 131–140: Recursion + Backtracking
 
-131. Combination sum
-132. Combination sum II
-133. Subsets
-134. Subsets II (duplicates)
-135. Permutations
-136. N-Queens
-137. Sudoku solver
-138. Rat in a maze
-139. Word search
-140. Palindrome partitioning
+| Day | Problem                 | LeetCode        |
+| --- | ----------------------- | --------------- |
+| 131 | Combination Sum         | LC 39           |
+| 132 | Combination Sum II      | LC 40           |
+| 133 | Subsets                 | LC 78           |
+| 134 | Subsets II              | LC 90           |
+| 135 | Permutations            | LC 46           |
+| 136 | N-Queens                | LC 51           |
+| 137 | Sudoku Solver           | LC 37           |
+| 138 | Rat in a Maze           | LC 79 (variant) |
+| 139 | Word Search             | LC 79           |
+| 140 | Palindrome Partitioning | LC 131          |
 
 ## 🔹 Days 141–150: Linked List Advanced
 
-141. Reverse in K groups
-142. Flatten linked list
-143. Clone linked list with random pointer
-144. Intersection of two linked lists
-145. Add two numbers (LL)
-146. Remove nth node from end
-147. Rotate linked list
-148. Sort linked list (merge sort)
-149. Odd-even linked list
-150. Copy list with random pointer (optimized)
+| Day | Problem                      | LeetCode |
+| --- | ---------------------------- | -------- |
+| 141 | Reverse in K Groups          | LC 25    |
+| 142 | Flatten Linked List          | LC 430   |
+| 143 | Clone LL with Random Pointer | LC 138   |
+| 144 | Intersection of LL           | LC 160   |
+| 145 | Add Two Numbers              | LC 2     |
+| 146 | Remove Nth Node              | LC 19    |
+| 147 | Rotate Linked List           | LC 61    |
+| 148 | Sort Linked List             | LC 148   |
+| 149 | Odd-Even Linked List         | LC 328   |
+| 150 | Copy List (Optimized)        | LC 138   |
 
 ## 🔹 Days 151–160: Stack & Monotonic Stack
 
-151. Largest rectangle in histogram
-152. Maximal rectangle in matrix
-153. Next smaller element
-154. Previous greater element
-155. Daily temperatures
-156. Asteroid collision
-157. Remove K digits
-158. Decode string
-159. Basic calculator I
-160. Basic calculator II
-
-## 🔹 Days 161–170: Trees Advanced
-
-161. Left view of binary tree
-162. Right view of binary tree
-163. Vertical order traversal
-164. Top view of binary tree
-165. Bottom view of binary tree
-166. Boundary traversal
-167. Serialize & deserialize tree
-168. Construct tree from inorder + preorder
-169. Path sum problems
-170. Maximum path sum
-
-## 🔹 Days 171–180: Graphs (Core)
-
-171. BFS traversal
-172. DFS traversal
-173. Number of islands
-174. Flood fill
-175. Detect cycle (undirected)
-176. Detect cycle (directed)
-177. Topological sort (DFS)
-178. Topological sort (Kahn’s BFS)
-179. Bipartite graph check
-180. Shortest path in unweighted graph
-
-## 🔹 Days 181–190: Graphs Advanced
-
-181. Dijkstra’s algorithm
-182. Bellman-Ford
-183. Floyd Warshall
-184. Minimum spanning tree (Kruskal)
-185. Minimum spanning tree (Prim’s)
-186. Disjoint Set (Union Find)
-187. Number of provinces
-188. Accounts merge
-189. Word ladder
-190. Cheapest flights within K stops
-
-## 🔹 Days 191–195: Dynamic Programming (Core)
-
-191. Climbing stairs
-192. House robber
-193. Coin change
-194. Longest increasing subsequence
-195. Longest common subsequence
-
-## 🔹 Days 196–200: Backend & System Design Basics
-
-196. Design REST API (CRUD – Spring Boot)
-197. Implement JWT authentication
-198. Design URL shortener (basic)
-199. Rate limiter (token bucket / sliding window)
-200. Caching with LRU (backend use-case)
+| Day | Problem                        | LeetCode         |
+| --- | ------------------------------ | ---------------- |
+| 151 | Largest Rectangle in Histogram | LC 84            |
+| 152 | Maximal Rectangle              | LC 85            |
+| 153 | Next Smaller Element           | LC 496 (variant) |
+| 154 | Previous Greater Element       | Variant          |
+| 155 | Daily Temperatures             | LC 739           |
+| 156 | Asteroid Collision             | LC 735           |
+| 157 | Remove K Digits                | LC 402           |
+| 158 | Decode String                  | LC 394           |
+| 159 | Basic Calculator I             | LC 224           |
+| 160 | Basic Calculator II            | LC 227           |
