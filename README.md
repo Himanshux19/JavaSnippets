@@ -2,84 +2,93 @@
 
 ## 📌 Overview
 
-This is my **private Java snippets repository**, created for **daily practice and long-term mastery** of Java.
-It contains **small, focused, reusable code snippets** covering core Java, DSA, OOP, utilities, and backend-related concepts.
+A curated collection of **Java code snippets** built through daily practice, focused on mastering:
 
-_The goal is **consistency > perfection**._
+- Core Java fundamentals
+- Data Structures & Algorithms
+- Object-Oriented Programming (OOP)
+- Backend-oriented concepts
+
+Each snippet is **minimal, reusable, and interview-focused**.
+
+> ⚡ _Consistency over perfection._
 
 ## 🎯 Purpose
 
-* Practice Java **daily**
-* Build a **personal reference vault**
-* Improve **problem-solving & code clarity**
-* Prepare for **interviews & backend development**
-* Avoid forgetting important concepts over time
+- 📅 Practice Java **every day**
+- 🧠 Build a **personal knowledge vault**
+- 🔍 Improve **problem-solving clarity**
+- 💼 Prepare for **interviews (DSA + Backend)**
+- 🔁 Retain concepts through **revision-friendly snippets**
 
 ## 🗂️ Repository Structure
 
 ```
 java-snippets/
-├── Java Basics & Logic Building
-├── Strings Fundamentals
-├── Arrays
-├── Searching & Sorting
-├── Recursion & Math
-├── Linked List
-├── Stack & Queue
-├── Trees
-├── Hashing & Sets
-├── Java OOP
-├── Java Collections & Utilities
-├── Advanced / Backend-Oriented
-└── README.md
+├── 01_Java_Basics
+├── 02_Strings
+├── 03_Arrays
+├── 04_Searching_Sorting
+├── 05_Recursion_Math
+├── 06_Linked_List
+├── 07_Stack_Queue
+├── 08_Trees
+├── 09_Hashing
+├── 10_OOP
+├── 11_Collections_Utilities
+├── 12_Backend_Concepts
+├── README.md
+├── Tasks_i.md
+└── Tasks_ii.md
 ```
 
-## 🧠 Snippet Rules
+## 🧠 Snippet Guidelines
 
-Each snippet should:
+Each snippet must:
 
-* Solve **one small problem**
-* Be **clean & readable**
-* Include:
+- Solve **one focused problem**
+- Be **clean, readable, and optimized**
+- Include structured documentation:
 
-  ```java
-  // Problem:
-  // Approach:
-  // Time Complexity:
-  // Space Complexity:
-  ```
-* Avoid unnecessary boilerplate
+```java
+// Problem:
+// Approach:
+// Time Complexity:
+// Space Complexity:
+```
 
+- Prefer **clarity over clever tricks**
+- Avoid unnecessary boilerplate
 
 ## 🚀 Motivation
 
 > “Code daily. Improve silently. Let results speak.”
 
+## 📅 Daily Log (Optional)
 
-
-## 📅 Example Daily Log (Optional)
-
-```text
+```
 Day 12:
 ✔ String palindrome (2 approaches)
 ✔ Binary search (iterative)
 ✔ HashMap frequency counter
 ```
 
-
 ## 📊 Progress Status
 
-* ✅ Core Java Fundamentals — Completed
-* ✅ Data Structures & Algorithms — Completed
-* ✅ OOP & Collections — Completed
-* ✅ Backend-Oriented Concepts — Completed
-* 🔄 Continuous Improvements & Additions
+| Category                     | Status       |
+| ---------------------------- | ------------ |
+| Core Java Fundamentals       | ✅ Completed |
+| Data Structures & Algorithms | ✅ Completed |
+| OOP & Collections            | ✅ Completed |
+| Backend-Oriented Concepts    | ✅ Completed |
+| Continuous Improvements      | 🔄 Ongoing   |
 
 
+## 🔥 What Makes This Repo Different?
 
-## 🧩 Optional Enhancements (Later)
+- Focus on **small, reusable building blocks**
+- Designed for **quick revision before interviews**
+- Covers both **DSA + Backend fundamentals**
+- Clean separation of **topics for faster navigation**
 
-* Add unit tests (JUnit)
-* Add markdown explanations per folder
-* Tag snippets with difficulty
-* Convert best snippets into blog posts
+⭐ _This repository is private and built for disciplined daily growth._
