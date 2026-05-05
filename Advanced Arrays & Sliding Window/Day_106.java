@@ -24,6 +24,6 @@ class Day_106 {
         for (int i = 0; i < n; i++)
             arr[i] = sc.nextInt();
         int k = sc.nextInt();
-        System.out.println("Minimum size Subarray sum : " + findMaxAverage(arr, k));
+        System.out.println("Maximum Average Sum : " + findMaxAverage(arr, k));
     }
 }

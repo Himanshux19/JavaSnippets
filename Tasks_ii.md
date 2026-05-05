@@ -7,7 +7,7 @@
 | 103 | Longest repeating character replacement | 424 | https://leetcode.com/problems/longest-repeating-character-replacement/        |
 | 104 | Sliding window maximum                  | 239 | https://leetcode.com/problems/sliding-window-maximum/                         |
 | 105 | Subarrays with exactly K distinct       | 992 | https://leetcode.com/problems/subarrays-with-k-different-integers/            |
-| 106 | Max sum fixed window K                  | 643 | https://leetcode.com/problems/maximum-average-subarray-i/                     |
+| 106 | Maximum Average Subarray I                  | 643 | https://leetcode.com/problems/maximum-average-subarray-i/                     |
 | 107 | Longest substring without repeating     | 3   | https://leetcode.com/problems/longest-substring-without-repeating-characters/ |
 | 108 | Fruit into baskets                      | 904 | https://leetcode.com/problems/fruit-into-baskets/                             |
 | 109 | Binary subarrays with sum               | 930 | https://leetcode.com/problems/binary-subarrays-with-sum/                      |

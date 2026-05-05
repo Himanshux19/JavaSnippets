@@ -22,6 +22,6 @@ class Day_103 {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
         int k = sc.nextInt();
-        System.out.println("Minimum size Subarray sum : " + characterReplacement(s, k));
+        System.out.println("Longest Repeating Character Replacement : " + characterReplacement(s, k));
     }
 }
