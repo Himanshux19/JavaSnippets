@@ -37,6 +37,8 @@ java-snippets/
 ├── 10_OOP
 ├── 11_Collections_Utilities
 ├── 12_Backend_Concepts
+├── 13_Advanced_Arrays_&_Sliding_Window
+├── 14_Two_Pointers_&_Greedy
 ├── README.md
 ├── Tasks_i.md
 └── Tasks_ii.md
